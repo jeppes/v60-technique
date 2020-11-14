@@ -1,0 +1,70 @@
+html, body, #root, .App {
+  height: 100%;
+
+  background-color: #111111;
+  color: white;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Timer-Container {
+  height: 30%;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Container {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Instructions-Container {
+  align-self: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Instructions-List {
+  padding: 0;
+}
+
+.Instructions-List > li {
+  color: #efefef;
+  margin-bottom: 8px;
+}
+
+.Next-Instruction {
+  opacity: 0.5;
+}
+
+.Buttons-Container {
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Button {
+  background: none;
+  border: none;
+
+  margin: 8px;
+
+  font-size: 16px;
+  color: #ee5533;
+  font-weight: bold;
+}
